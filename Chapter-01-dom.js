@@ -31,6 +31,34 @@
  */
 
 // Finding HTML Element by Id
+
+// find an element by id
 const mainHeading = document.getElementById("main-heading");
 console.log(mainHeading);
-mainHeading.style.color = "green";
+
+// get all the elements which uses same class 'list-items' in our case
+const listItems = document.getElementsByClassName("list-items");
+console.log(listItems);
+
+// select All ul in page, and return HTMLCollection()[]
+const listTag = document.getElementsByTagName("ul");
+console.log(listTag);
+
+// it will select the first element, which you are givent to querySelector() method
+// in case of class use . dot before class name. querySelector(".className")
+// in case of id use # hash before id name. querySelector("#id")
+const divElement = document.querySelector("div");
+console.log(divElement);
+
+// It Will select all the elements, and return us NodeLists
+// In this case we are looking for 'div' element
+const allDivElement = document.querySelectorAll("div");
+console.log(allDivElement);
+
+function domAction() {
+  mainHeading.style.color = "green";
+}
+
+document.querySelector("#bookButton").addEventListener("click", (event) => {
+  document.querySelector("#books-main-heading").style.color = "red";
+});
