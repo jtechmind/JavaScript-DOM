@@ -9,11 +9,21 @@
   /* justify-items: center; */
   gap: 5px;
   padding: 20px;
+  flex-wrap: wrap;
 }
 
 .red,
 .blue,
-.greenyellow {
+.greenyellow,
+.black,
+.green,
+.yellow,
+.pink,
+.orange,
+.aqua,
+.chartreuse,
+.chocolate,
+.brown {
   width: 100px;
   height: 100px;
   border: whitesmoke solid 5px;
@@ -28,4 +38,36 @@
 
 .greenyellow {
   background-color: greenyellow;
+}
+.black {
+  background-color: black;
+}
+.green {
+  background-color: green;
+}
+.yellow {
+  background-color: yellow;
+}
+
+.pink {
+  background-color: pink;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.aqua {
+  background-color: aqua;
+}
+.chocolate {
+  background-color: chocolate;
+}
+
+.chartreuse {
+  background-color: chartreuse;
+}
+
+.brown {
+  background-color: brown;
 }
