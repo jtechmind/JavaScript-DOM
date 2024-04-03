@@ -13,7 +13,7 @@
 
 .red,
 .blue,
-.green {
+.greenyellow {
   width: 100px;
   height: 100px;
   border: whitesmoke solid 5px;
@@ -26,6 +26,6 @@
   background-color: blue;
 }
 
-.green {
+.greenyellow {
   background-color: greenyellow;
 }
