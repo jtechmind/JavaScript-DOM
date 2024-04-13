@@ -16,6 +16,7 @@ body {
   background-color: #fff;
   border-radius: 15px;
   padding: 30px;
+  text-align: center;
 }
 
 body {
@@ -30,4 +31,31 @@ body {
   width: 100%;
   object-fit: cover;
   object-position: center;
+  border-radius: 12px;
+}
+#card h1 {
+  margin: 10px 0;
+  font-size: 30px;
+}
+
+#card h5 {
+  font-size: 24px;
+  color: chocolate;
+  margin: 22px;
+  margin: 10px 0;
+}
+
+#card button {
+  background-color: cadetblue;
+  color: #fff;
+  font-weight: 600;
+  padding: 12px 20px;
+  border: none;
+  margin: 5px;
+  cursor: pointer;
+}
+
+#card #remove {
+  color: #111;
+  background-color: #dadada;
 }
