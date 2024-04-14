@@ -32,10 +32,13 @@ body {
 }
 
 .container i {
-  color: #fff;
+  color: red;
   font-size: 64px;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) scale(0);
+  opacity: 0;
+  transition: all ease 0.5s;
+  /* transition: transform ease 0.5; */
 }
